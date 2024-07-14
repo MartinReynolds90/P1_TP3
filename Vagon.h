@@ -16,6 +16,7 @@ private:
 	Text text_vagon;
 	String string_vagon;
 
+
 public:
 	Vagon(int,int,int);
 	Sprite get_sprite();
@@ -23,7 +24,7 @@ public:
 	void set_position(float,float);
 	Vector2f get_position();
 	int get_num();
-
+	
 
 };
 

@@ -14,30 +14,35 @@ private:
 
 	Clock* clock_game;
 	Time* time_game;
+	RectangleShape* rectangle;
+	Cursor* cursor;
+	
+	
 
 	int n_uno;
 	int n_dos;
 	int n_tres;
-	int respuesta;
+	bool respuesta;
 
 	Sprite* sp_background;
 	Texture* tx_background;
 	Sprite* sp_locomotora;
 	Texture* tx_locomotora;
 
-	Font font_uno;
+	Font font;
 	Text text_uno;
 	String string_uno;
-	Font font_dos;
+	
 	Text text_dos;
 	String string_dos;
-	Font font_tres;
+	
 	Text text_tres;
 	String string_tres;
-	Font font_respuesta;
-	Text text_respuesta;
-	String string_respuesta;
-	Font font_tiempo;
+
+	Text textBoxText;
+	String theText = "";
+	string user = "";
+
 	Text text_tiempo;
 	String string_tiempo;
 
@@ -73,6 +78,7 @@ public:
 	Game(int,int,String);
 	void game_loop();
 	void game_draw();
+	void process_event();
 
 };
 
