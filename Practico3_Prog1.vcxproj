@@ -132,13 +132,13 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Tren.cpp" />
+    <ClCompile Include="Lista.cpp" />
     <ClCompile Include="Vagon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="Nodo.h" />
-    <ClInclude Include="Tren.h" />
+    <ClInclude Include="Lista.h" />
     <ClInclude Include="Vagon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
