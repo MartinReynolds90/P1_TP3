@@ -15,8 +15,8 @@ public:
 	Lista();
 	void agregar_nodo(Vagon*);
 	void recorrer_lista(float,float);
-	//void eliminar_nodo(Vagon*);
 	void quitar_nodo();
+	bool lista_vacia();
 
 
 };

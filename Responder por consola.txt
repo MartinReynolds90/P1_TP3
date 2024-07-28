@@ -1,0 +1,5 @@
+Cuando el programa llega al cin que lee el resultado de la operación, congela el tiempo, tanto el consola como en el Text de SFML, pero al ingresar la respuesta de la suma y presionar Enter, el tiempo reanuda actualizado, es decir, no lo muestra pero sigue contando bien. 
+
+Otro problema que no pude solucionar es que en el cuadro de texto que puse para la respuesta, se puede escribir y borrar mientras el tren se mueve, pero al colisionar y esperar la respuesta, solo puedo escribir en consola, y no se puede en el texto hasta que vuelva circular el tren.
+
+Por esto es que solo se puede ingresar la respuesta por consola.

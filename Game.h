@@ -25,30 +25,33 @@ private:
 	Sprite* sp_locomotora;
 	Texture* tx_locomotora;
 
-	Font font_uno;
+	Font font;
+
 	Text text_uno;
 	String string_uno;
-	Font font_dos;
+	
 	Text text_dos;
 	String string_dos;
-	Font font_tres;
+	
 	Text text_tres;
 	String string_tres;
-	Font font_respuesta;
-	Text text_respuesta;
-	String string_respuesta;
-	Font font_tiempo;
+	
+	Text text_victoria;
+	String string_victoria;
+	
 	Text text_tiempo;
 	String string_tiempo;
 
+	RectangleShape* rectangle;
+	Text text_respuesta;
+	String string_respuesta = "";
+
+
 	Lista* tren;
 	Nodo* primer_v;
-	Nodo* ultimo_v;
-	
-
 
 	int vel_tren;
-	bool colision;
+
 	Vector2f estacion_final;
 
 	FloatRect* locomotoraRect;
@@ -73,6 +76,7 @@ public:
 	Game(int,int,String);
 	void game_loop();
 	void game_draw();
+	void process_event();
 
 };
 
